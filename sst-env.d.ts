@@ -5,13 +5,13 @@
 
 declare module "sst" {
   export interface Resource {
-    "GITHUB_TOKEN": {
-      "type": "sst.sst.Secret"
-      "value": string
-    }
+    GITHUB_TOKEN: {
+      type: "sst.sst.Secret";
+      value: string;
+    };
   }
 }
 /// <reference path="sst-env.d.ts" />
 
-import "sst"
-export {}
+import "sst";
+export {};

@@ -8,6 +8,7 @@ export default $config({
       home: "aws",
     };
   },
+
   async run() {
     const GITHUB_TOKEN = new sst.Secret("GITHUB_TOKEN");
 
