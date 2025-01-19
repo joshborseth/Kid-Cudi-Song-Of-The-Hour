@@ -11,8 +11,13 @@ export default $config({
   },
   async run() {
     new sst.aws.Cron("MyCronJob", {
-      function: "src/index.handler",
-      schedule: "rate(1 minute)",
+      function: {
+        handler: "src/index.handler",
+        environment: {
+          GITHUB_TOKEN: process.env.GITHUB_TOKEN!,
+        },
+      },
+      schedule: "rate(1 day)",
     });
   },
 });
