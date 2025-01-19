@@ -3,7 +3,7 @@ import { Resource } from "sst";
 import { songs } from "./data";
 
 const OWNER = "joshborseth";
-const REPO = "Senior-LinkedIn-Engineer";
+const REPO = "Kid-Cudi-Song-Of-The-Day";
 const FILE_PATH = "README.md";
 const BRANCH = "main";
 
@@ -24,13 +24,13 @@ export async function handler() {
     })) as { data: { content: string; sha: string } };
 
     const randomSong = getRandomSong(fileData.content);
-    const newContent = `# Kid Cudi Song Of The Day:\n${randomSong}`;
+    const newContent = `# Kid Cudi Song Of The Day\n${randomSong}`;
 
     await octokit.repos.createOrUpdateFileContents({
       owner: OWNER,
       repo: REPO,
       path: FILE_PATH,
-      message: newContent,
+      message: randomSong,
       content: Buffer.from(newContent).toString("base64"),
       sha: fileData.sha,
       branch: BRANCH,

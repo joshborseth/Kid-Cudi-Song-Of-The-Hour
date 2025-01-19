@@ -3,9 +3,8 @@
 export default $config({
   app(input) {
     return {
-      name: "linkedin-senior-engineer",
+      name: "kid-cudi-song-of-the-day",
       removal: input?.stage === "production" ? "retain" : "remove",
-      protect: ["production"].includes(input?.stage),
       home: "aws",
     };
   },
