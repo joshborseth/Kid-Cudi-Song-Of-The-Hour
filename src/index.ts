@@ -1,11 +1,12 @@
 import { Octokit } from "@octokit/rest";
+import { Resource } from "sst";
 
 const OWNER = "joshborseth";
 const REPO = "Senior-LinkedIn-Engineer";
 const FILE_PATH = "README.md";
 const BRANCH = "main";
 
-const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+const octokit = new Octokit({ auth: Resource.GITHUB_TOKEN.value });
 
 export async function handler() {
   try {
@@ -17,15 +18,13 @@ export async function handler() {
     })) as { data: { content: string; sha: string } };
 
     const currentContent = Buffer.from(fileData.content, "base64").toString("utf-8");
-    const content = String(Number(currentContent) + 1);
-
-    const newContent = `${currentContent}\n\n${content}`;
+    const newContent = String(Number(currentContent) + 1);
 
     await octokit.repos.createOrUpdateFileContents({
       owner: OWNER,
       repo: REPO,
       path: FILE_PATH,
-      message: content,
+      message: newContent,
       content: Buffer.from(newContent).toString("base64"),
       sha: fileData.sha,
       branch: BRANCH,

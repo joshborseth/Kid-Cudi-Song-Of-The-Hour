@@ -10,12 +10,13 @@ export default $config({
     };
   },
   async run() {
+    const GITHUB_TOKEN = new sst.Secret("GITHUB_TOKEN");
+
     new sst.aws.Cron("MyCronJob", {
       function: {
         handler: "src/index.handler",
-        environment: {
-          GITHUB_TOKEN: process.env.GITHUB_TOKEN!,
-        },
+        link: [GITHUB_TOKEN],
+        url: true,
       },
       schedule: "rate(1 day)",
     });
