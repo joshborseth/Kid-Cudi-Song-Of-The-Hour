@@ -18,21 +18,16 @@ async function pushCommit() {
 
   const sha = refData.object.sha;
 
-  // Get the tree of the current commit
-  const { data: commitData } = await octokit.git.getCommit({
-    owner,
-    repo,
-    commit_sha: sha,
-  });
+  console.log(sha);
 
   // Create a new tree with the changes
   const newTree = await octokit.git.createTree({
     owner,
     repo,
-    base_tree: commitData.tree.sha,
+    base_tree: sha,
     tree: [
       {
-        path: "src/count.txt", // Path to the file you want to change
+        path: "count.txt", // Path to the file you want to change
         mode: "100644", // File mode
         content: "New content for the file", // New content
       },
