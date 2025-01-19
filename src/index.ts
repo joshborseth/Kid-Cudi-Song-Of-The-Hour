@@ -35,6 +35,7 @@ export async function handler() {
       sha: fileData.sha,
       branch: BRANCH,
     });
+
     console.log("README.md updated");
   } catch (error) {
     console.error("Error updating README.md:", error);

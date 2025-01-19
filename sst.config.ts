@@ -11,7 +11,7 @@ export default $config({
   async run() {
     const GITHUB_TOKEN = new sst.Secret("GITHUB_TOKEN");
 
-    new sst.aws.Cron("MyCronJob", {
+    new sst.aws.Cron("mmmmmm", {
       function: {
         handler: "src/index.handler",
         link: [GITHUB_TOKEN],
