@@ -1,5 +1,6 @@
 import { Octokit } from "@octokit/rest";
 import { Resource } from "sst";
+import { songs } from "./data";
 
 const OWNER = "joshborseth";
 const REPO = "Senior-LinkedIn-Engineer";
@@ -7,6 +8,11 @@ const FILE_PATH = "README.md";
 const BRANCH = "main";
 
 const octokit = new Octokit({ auth: Resource.GITHUB_TOKEN.value });
+
+function getRandomSong(currentSong: string): string {
+  const randomSong = songs[Math.floor(Math.random() * songs.length)];
+  return randomSong === currentSong ? getRandomSong(currentSong) : randomSong;
+}
 
 export async function handler() {
   try {
@@ -17,8 +23,8 @@ export async function handler() {
       ref: BRANCH,
     })) as { data: { content: string; sha: string } };
 
-    const currentContent = Buffer.from(fileData.content, "base64").toString("utf-8");
-    const newContent = String(Number(currentContent) + 1);
+    const randomSong = getRandomSong(fileData.content);
+    const newContent = `# Kid Cudi Song Of The Day:\n${randomSong}`;
 
     await octokit.repos.createOrUpdateFileContents({
       owner: OWNER,
