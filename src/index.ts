@@ -27,7 +27,7 @@ async function pushCommit() {
     base_tree: sha,
     tree: [
       {
-        path: "count.txt", // Path to the file you want to change
+        path: "README.md", // Path to the file you want to change
         mode: "100644", // File mode
         content: "New content for the file", // New content
       },
