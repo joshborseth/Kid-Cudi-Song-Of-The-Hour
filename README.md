@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Wild’n Cuz I’m Young
+Scott Mescudi vs. The World
