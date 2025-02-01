@@ -1,5 +1,5 @@
 {
-  "name": "kid-cudi-song-of-the-day",
+  "name": "kid-cudi-song-of-the-hour",
   "type": "module",
   "scripts": {
     "build": "esbuild --bundle --outfile=./dist/index.js --platform=node --target=node20 ./src/index.ts",

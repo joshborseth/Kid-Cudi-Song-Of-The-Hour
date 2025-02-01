@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: "kid-cudi-song-of-the-day",
+      name: "kid-cudi-song-of-the-hour",
       removal: input?.stage === "production" ? "retain" : "remove",
       home: "aws",
     };
@@ -18,7 +18,7 @@ export default $config({
         link: [GITHUB_TOKEN],
         url: true,
       },
-      schedule: "rate(1 day)",
+      schedule: "rate(1 hour)",
     });
   },
 });
