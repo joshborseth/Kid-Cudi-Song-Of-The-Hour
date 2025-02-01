@@ -7,7 +7,7 @@ declare module "sst" {
   export interface Resource {
     "GITHUB_TOKEN": {
       "type": "sst.sst.Secret"
-      "value": string
+      "value": any
     }
   }
 }

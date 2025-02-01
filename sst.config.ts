@@ -3,7 +3,7 @@
 export default $config({
   app(input) {
     return {
-      name: "kid-cudi-song-of-the-hour",
+      name: "kid-cudi-song-of-the-day",
       removal: input?.stage === "production" ? "retain" : "remove",
       home: "aws",
     };
