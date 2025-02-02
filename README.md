@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Man On The Moon
+Lord of the Sad And Lonely
