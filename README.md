@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Troubled Boy
+Lord of the Sad And Lonely
