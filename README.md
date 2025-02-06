@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Wounds
+Trapped In My Mind
