@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Cudi Get
+Distant Fantasies
