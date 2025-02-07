@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Insides Out
+Dance 4 Eternity
