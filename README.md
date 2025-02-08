@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Can’t Believe It
+Dance 4 Eternity
