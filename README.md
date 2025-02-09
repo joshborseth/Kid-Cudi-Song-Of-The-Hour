@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Marijuana
+Soundtrack 2 My Life
