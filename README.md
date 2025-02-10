@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Return of the Moon Man
+Heart of a Lion
