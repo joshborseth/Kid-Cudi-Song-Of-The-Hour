@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Distant Fantasies
+Fade 2 Red
