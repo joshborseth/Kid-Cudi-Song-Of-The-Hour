@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Can’t Believe It
+Mojo So Dope
