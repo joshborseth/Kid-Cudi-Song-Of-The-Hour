@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Beez
+The Resurrection of Scott Mescudi
