@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-New Mode
+Speedin Bullet 2 Heaven
