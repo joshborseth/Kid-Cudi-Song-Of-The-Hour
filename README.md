@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Surfin
+Return of the Moon Man
