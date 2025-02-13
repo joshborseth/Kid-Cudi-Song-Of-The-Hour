@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-The Guide
+Too Bad I Have To Destroy You Now
