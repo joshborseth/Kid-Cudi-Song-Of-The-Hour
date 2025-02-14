@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-We Aite
+Pursuit of Happiness
