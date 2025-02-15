@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Adventures
+Too Bad I Have To Destroy You Now
