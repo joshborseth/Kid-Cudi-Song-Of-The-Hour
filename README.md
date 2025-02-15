@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Fade 2 Red
+4 Da Kidz
