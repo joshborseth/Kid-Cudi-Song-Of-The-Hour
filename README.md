@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-CONFUSED!
+The Resurrection of Scott Mescudi
