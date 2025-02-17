@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Rose Golden
+New Mode
