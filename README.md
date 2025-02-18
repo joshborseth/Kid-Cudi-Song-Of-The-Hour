@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Marijuana
+Wild’n Cuz I’m Young
