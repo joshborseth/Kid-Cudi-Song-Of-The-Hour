@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Is There Any Love
+Speedin Bullet 2 Heaven
