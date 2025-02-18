@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Man On The Moon
+Solo Dolo Pt.III
