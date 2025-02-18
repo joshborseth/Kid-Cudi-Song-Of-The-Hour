@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-The Void
+Man On The Moon
