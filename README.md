@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Internal Bleeding
+4 Da Kidz
