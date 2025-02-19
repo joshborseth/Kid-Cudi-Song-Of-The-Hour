@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-The Prayer
+The Return of Chip Douglas
