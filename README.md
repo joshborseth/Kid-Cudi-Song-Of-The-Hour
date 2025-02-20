@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Frequency
+Trapped In My Mind
