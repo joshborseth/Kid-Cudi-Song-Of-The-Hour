@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Burn Baby Burn
+Do What I Want
