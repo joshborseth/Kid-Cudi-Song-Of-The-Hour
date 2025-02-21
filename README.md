@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-All Along
+Lord of the Sad And Lonely
