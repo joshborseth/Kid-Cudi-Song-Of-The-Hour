@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Pillow Talk
+Speedin Bullet 2 Heaven
