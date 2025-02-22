@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Heaven On Earth
+Wild’n Cuz I’m Young
