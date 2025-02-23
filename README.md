@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Edge of the Earth
+Just What I Am
