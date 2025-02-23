@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Mr.Rager
+Edge of the Earth
