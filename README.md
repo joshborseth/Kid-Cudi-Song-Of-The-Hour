@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-My Drug
+New York City Rage Fest
