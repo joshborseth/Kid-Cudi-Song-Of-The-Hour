@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Kitchen
+The Flight of the Moon Man
