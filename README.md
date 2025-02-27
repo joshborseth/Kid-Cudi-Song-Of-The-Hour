@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-All In
+Fade 2 Red
