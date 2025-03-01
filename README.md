@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Wedding Tux
+4 Da Kidz
