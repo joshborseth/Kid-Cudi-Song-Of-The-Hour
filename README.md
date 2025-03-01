@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Whenever
+Soundtrack 2 My Life
