@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-The Return of Chip Douglas
+Soundtrack 2 My Life
