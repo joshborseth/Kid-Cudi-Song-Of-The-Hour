@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Solo Dolo Pt.III
+The Resurrection of Scott Mescudi
