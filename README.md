@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Entergalactic Theme
+Too Bad I Have To Destroy You Now
