@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-REVOFEV
+Fade 2 Red
