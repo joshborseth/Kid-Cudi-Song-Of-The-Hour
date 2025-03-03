@@ -1,2 +1,2 @@
 # Kid Cudi Song Of The Hour
-Seance Chaos
+The Resurrection of Scott Mescudi
